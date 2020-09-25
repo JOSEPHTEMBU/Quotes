@@ -8,6 +8,7 @@ import { DateCountPipe } from './date-count.pipe';
 import { QuoteFormComponent } from './quote-form/quote-form.component';
 import { QuoteDetailComponent } from './quote-detail/quote-detail.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { StrikethroughDirective } from './strikethrough.directive';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
     DateCountPipe,
     QuoteFormComponent,
     QuoteDetailComponent,
-    NavBarComponent
+    NavBarComponent,
+    StrikethroughDirective
   ],
   imports: [
     BrowserModule,
