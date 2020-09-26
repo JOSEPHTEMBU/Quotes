@@ -1,1 +1,4 @@
-<p>quote-detail works!</p>
+<p>Author: {{quote.author}}</p>
+<p>Submitted By: {{quote.submitter}}</p>
+<p>Added {{quote.dateAdded|dateTransform}} days ago</p>
+<button class="btn btn-danger" (click)='deleteThisQuote(true)'>Delete</button>
