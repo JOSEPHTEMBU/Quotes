@@ -1,9 +1,18 @@
 # Quotes
 An application that enables users to add quotes,delete quotes.You can also be able to see the number of upvotes and downvotes in each quotes.
 
-#
+# Description
 
+An application that enables users to add quotes,delete quotes.You can also be able to see the number of upvotes and downvotes in each quotes.
+# Author
 
+Joseph Mulama Tembu
+# Technologies Used
+
+Angular CLI
+# Live link
+
+# 
 
 
 
