@@ -14,6 +14,7 @@ Angular CLI
 # Live link 
 
 # Figma Link
+https://www.figma.com/proto/SdPGKQU2ScJSIgsFT914mZ/Quotes-web-Application?scaling=min-zoom&node-id=1%3A2
 
 ## How to set up/Installation Requirements
 
