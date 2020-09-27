@@ -1,19 +1,25 @@
 # Quotes
+
 An application that enables users to add quotes,delete quotes.You can also be able to see the number of upvotes and downvotes in each quotes.
 
 # Description
 
 An application that enables users to add quotes,delete quotes.You can also be able to see the number of upvotes and downvotes in each quotes.
+
 # Author
 
 Joseph Mulama Tembu
+
 # Technologies Used
 
 Angular CLI
 
-# Live link 
+# Live link
+
+https://josephtembu.github.io/Quotes/
 
 # Figma Link
+
 https://www.figma.com/proto/SdPGKQU2ScJSIgsFT914mZ/Quotes-web-Application?scaling=min-zoom&node-id=1%3A2
 
 ## How to set up/Installation Requirements
@@ -25,14 +31,14 @@ https://www.figma.com/proto/SdPGKQU2ScJSIgsFT914mZ/Quotes-web-Application?scalin
 
 ## Behaviour Driven Development (BDD)
 
- An application that enables users to add quotes,delete quotes.You can also be able to see the number of upvotes and downvotes in each quotes.
+An application that enables users to add quotes,delete quotes.You can also be able to see the number of upvotes and downvotes in each quotes.
 
-| input  | output |
-| ------- | ------------ |
-|   User clicks add new Quote |  Quote form displays with input fields for Author, Quote adn the person submitted the quote    |
-| user can delete the quote  |  The quote can be removed from the views      |
-| user can click upVotes | upvote is incremented value by 1 on each click     |
-| user can click downVotes    | downvote is decremented value by 1 on each click    |
+| input                     | output                                                                                     |
+| ------------------------- | ------------------------------------------------------------------------------------------ |
+| User clicks add new Quote | Quote form displays with input fields for Author, Quote adn the person submitted the quote |
+| user can delete the quote | The quote can be removed from the views                                                    |
+| user can click upVotes    | upvote is incremented value by 1 on each click                                             |
+| user can click downVotes  | downvote is decremented value by 1 on each click                                           |
 
 ## Known Bugs
 
@@ -46,14 +52,6 @@ There are no known bugs currently. The page works as expected.
   ## licence
 
 Copyright (c) 2020 JOSEPHTEMBU
-
-
-
-
-
-
-
-
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.1.
 
