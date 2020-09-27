@@ -7,13 +7,13 @@
           <div class="card-header"></div>
           <div class="card-body">
 
-            <!-- <h5 *ngIf="quote === highestUpVote()" class="card-title">
-              <i class="fas fa-trophy"></i>
-            </h5> -->
-            <h5 class="card-title">
-              <strong> Quote: </strong>{{ quote.text }}
+            <h5 *ngIf="quote === highestUpVote()"appStrikethrough><strong>highest upvotes</strong>
+
             </h5>
 
+              {{ quote.text }}
+
+              <br>
             <button class="btn btn-info" (click)="toggleDetails(i)">
               Toggle Details
             </button>
@@ -22,12 +22,12 @@
 
           </div>
           <div class="card-footer text-muted">
-            <button class="btn btn-primary" (click)="addUpVote(i)">Upvote</button>
-            {{ quote.upvote }} <br /><br />
+            <p><button class="btn btn-primary" (click)="addUpVote(i)">Upvote</button>
+            {{ quote.upvote }}
             <button class="btn btn-danger" (click)="addDownVote(i)">
               Downvote
             </button>
-            {{ quote.downvote }}
+            {{ quote.downvote }}</p>
           </div>
         </div>
       </div>
