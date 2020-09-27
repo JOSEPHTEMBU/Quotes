@@ -22,6 +22,31 @@ Angular CLI
   -Navigate into the created folder (cd Quotes)
 - Open the project with a text editor eg atom OR visual studio code
 
+## Behaviour Driven Development (BDD)
+
+ An application that enables users to add quotes,delete quotes.You can also be able to see the number of upvotes and downvotes in each quotes.
+
+| input  | output |
+| ------- | ------------ |
+|   User clicks add new Quote |  Quote form displays with input fields for Author, Quote adn the person submitted the quote    |
+| user can delete the quote  |  The quote can be removed from the views      |
+| user can click upVotes | upvote is incremented value by 1 on each click     |
+| user can click downVotes    | downvote is decremented value by 1 on each click    |
+
+## Known Bugs
+
+There are no known bugs currently. The page works as expected.
+
+## Contact Information
+
+- email address
+  josephmulama30@gmail.com
+
+  ## licence
+
+Copyright (c) 2020 JOSEPHTEMBU
+
+
 
 
 
