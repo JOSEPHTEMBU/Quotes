@@ -10,9 +10,18 @@ Joseph Mulama Tembu
 # Technologies Used
 
 Angular CLI
-# Live link
 
-# 
+# Live link 
+
+# Figma Link
+
+## How to set up/Installation Requirements
+
+- In the terminal navigate to the directory you want the project to reside in e.g (cd ~/Desktop).
+- Clone the project (git clonehttps: https://github.com/JOSEPHTEMBU/Quotes
+  -Navigate into the created folder (cd Quotes)
+- Open the project with a text editor eg atom OR visual studio code
+
 
 
 
