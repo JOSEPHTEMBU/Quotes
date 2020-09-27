@@ -10,25 +10,25 @@ export class QuoteComponent implements OnInit {
   quotes: Quote[] = [
     new Quote(
       1,
-      'Simplicity is the ultimate sohistication',
-      'Sophie',
-      'Frankline',
+      'All our dreams can come true, if we have the courage to pursue them.',
+      'Walt Disney',
+      'Harvad',
       new Date(2020, 8, 23)
     ),
     new Quote(
       2,
-      'The way to get started is to quit talking and begin doing',
-      'Shitandi',
-      'Frankline',
+      'Smart people learn from everything and everyone, average people from their experiences, stupid people already have all the answers',
+      'Socrates',
+      'Wayne',
       new Date(2020, 7, 20)
     ),
-    new Quote(3, 'Love wins', 'Anne', 'Frankline', new Date(2020, 6, 23)),
-    
+    new Quote(3, 'No democracy can exist unless each of its citizens is as capable of outrage at injustice to another as he is of outrage at unjustice to himself.', 'Aristotle', 'wayne', new Date(2020, 6, 23)),
+
     new Quote(
       4,
-      'Better your best',
-      'Mulama',
-      'Frankline',
+      'If the machine of government is of such a nature that it requires you to be the agent of injustice to another, then, I say, break the law.',
+      'Henry David Thoreau',
+      'Hoston',
       new Date(2020, 5, 23)
     ),
   ];
@@ -57,7 +57,7 @@ export class QuoteComponent implements OnInit {
   }
 
   highestUpVote() {
-    let highestUpVoteQuote = new Quote(0, "", "", "", new Date());
+    let highestUpVoteQuote = new Quote(0, '', '', '', new Date());
     for (let i = 0; i < this.quotes.length; i++) {
       if (this.quotes[i].upvote > highestUpVoteQuote.upvote) {
         highestUpVoteQuote = this.quotes[i];
@@ -79,4 +79,3 @@ export class QuoteComponent implements OnInit {
 
   ngOnInit(): void {}
 }
-
